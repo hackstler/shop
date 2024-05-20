@@ -1,18 +1,14 @@
-// components/Header.jsx
-
-import React, { useState } from "react";
+import { useState } from "react";
 import {
   AppBar,
   Toolbar,
   Typography,
-  Button,
   IconButton,
   TextField,
   Drawer,
   Badge,
 } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
-import SearchIcon from "@mui/icons-material/Search";
 import AccountCircle from "@mui/icons-material/AccountCircle";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 import Cart from "../cart";
